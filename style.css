@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: teal;
+    text-align: center;
+}
+h1
+{
+    margin-top: 10vh;
+}
+.table
+{
+    margin: auto;
+    border: 6px solid black;
+    width: 30vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto; 
+}
+.box
+{
+    border: 1px solid black;
+    padding: 34px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(12, 12, 16);
+    width: 10vw;
+    background-color: rgb(148, 136, 113);
+}
+.reset
+{
+    background-color: rgb(176, 55, 55);
+    font-weight: bolder;
+    margin-top: 8vh;
+    min-height: 5vh;
+    min-width: 8vw;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.newGame
+{
+    background-color: rgb(176, 55, 55);
+    font-weight: bolder;
+    margin-top: 5vh;
+    min-height: 5vh;
+    min-width: 12vw;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.Winner
+{
+    color: black;
+    margin-top: 5vh;
+    font-size: xx-large;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+.table
+{
+    max-width: 30vw;
+}
+.box
+{
+    padding: 12px;
+    max-width: 10vw;
+    font-size: large;   
+}
+}
